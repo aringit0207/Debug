@@ -3,8 +3,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    // apiKey: import.meta.env.FIREBASE_API_KEY,
-    apiKey: "AIzaSyBQjQhtVo34RUd647g7lGq0RlTevPtobUM",
+    apiKey: import.meta.env.FIREBASE_API_KEY,
     authDomain: "mellow-92950.firebaseapp.com",
     projectId: "mellow-92950",
     storageBucket: "mellow-92950.firebasestorage.app",
